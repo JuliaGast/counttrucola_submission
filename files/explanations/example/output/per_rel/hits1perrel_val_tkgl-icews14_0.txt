@@ -1,0 +1,2 @@
+rel	mean_score	num_occurences
+6	0.525	320
