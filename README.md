@@ -218,7 +218,7 @@ self.test_data = self.all_quads[self.dataset.test_mask]
 * Evaluation is done autmatically when running `main.py`
 * The evaluation is conducted using the TGB 2.0 framework (https://tgb.complexdatalab.com/). The relevant code is taken from https://github.com/shenyangHuang/TGB. 
 * We add the tgb code in the Folder /tgb/
-* We manually added the datasets `tkgl-icews14, tkgl-icews18, tkgl-gdelt, tkgl-yago, tkgl-wikiold` and used the same splits as suggested in the evaluation paper by Gastinger et al. (https://dl.acm.org/doi/10.1007/978-3-031-43418-1_32) 
+* We manually added the datasets `tkgl-icews14, tkgl-icews18, tkgl-gdelt, tkgl-yago, tkgl-wikiold` and used the same splits as suggested in the evaluation paper by "Comparing Apples and Oranges" paper. (https://dl.acm.org/doi/10.1007/978-3-031-43418-1_32) 
 * You can however also run evaluation for a given rankings file by running `rul_based/eval.py` when specifying the path to the rankings file `path_rankings_val = "/files/rankings/filename.txt"`
 
 
