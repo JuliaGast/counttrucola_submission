@@ -1,8 +1,9 @@
-#     CountTRuCoLa
-CountTRuCoLa: Rule Learning for Interpretable Temporal Knowledge Graph Forecasting
+# CountTRuCoLa: Rule Learning for Interpretable Temporal Knowledge Graph Forecasting
 
 Julia Gastinger, Christian Meilicke, Heiner Stuckenschmidt
+
 Data and Web Science Group, University of Mannheim, Germany 
+
 first.last@uni-mannheim.de
 
 Accepted at The 25th International Semantic Web Conference (ISWC) 2026
@@ -231,7 +232,7 @@ self.test_data = self.all_quads[self.dataset.test_mask]
 
 
 ## 7. Explanations
-* Please consult the code and README in folder "explainer"
+* Please consult the code and README in folder [explainer](https://github.com/JuliaGast/counttrucola_submission/tree/main/explainer)
 
 
 ## 8. Links and references
