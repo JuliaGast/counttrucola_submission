@@ -1,5 +1,13 @@
 #     CountTRuCoLa
-CountTRuCoLa: Rule Confidence Learning for Temporal Knowledge Graph Forecasting
+CountTRuCoLa: Rule Learning for Interpretable Temporal Knowledge Graph Forecasting
+
+Julia Gastinger, Christian Meilicke, Heiner Stuckenschmidt
+Data and Web Science Group, University of Mannheim, Germany 
+first.last@uni-mannheim.de
+
+Accepted at The 25th International Semantic Web Conference (ISWC) 2026
+
+Find our paper here: https://arxiv.org/abs/2509.09474
 
 <img width="414" height="394" alt="grafik" src="https://github.com/user-attachments/assets/9093b6b7-6987-4a94-a9dd-879acc322a5a" />
 
@@ -222,9 +230,11 @@ self.test_data = self.all_quads[self.dataset.test_mask]
 * You can however also run evaluation for a given rankings file by running `rul_based/eval.py` when specifying the path to the rankings file `path_rankings_val = "/files/rankings/filename.txt"`
 
 
+## 7. Explanations
+* Please consult the code and README in folder "explainer"
 
 
-## 7. Links and references
+## 8. Links and references
 * [TGB 2.0 (evaluation and datasets framework) Paper](https://arxiv.org/abs/2406.09639v1)
 * [TGB 2.0 code](https://github.com/shenyangHuang/TGB)
 * [other datasets](https://github.com/nec-research/TKG-Forecasting-Evaluation/tree/main/data)
